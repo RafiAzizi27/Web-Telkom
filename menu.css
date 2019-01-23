@@ -1,0 +1,637 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+div.menu{
+	height: 70px;
+	width: 100%;
+	background-image: linear-gradient(to top, #00000000 0, #2d2d2d 130%);
+	font-family: Tw Cen Mt;
+	position: fixed;
+	top: 0;
+	right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+div.menu ul{
+	list-style-type: none; /*Menghilangkan bullet*/
+	overflow: hidden; /*Menghilangkan scroll bar*/
+	padding: 0; /*Jarak antara border dan content (jarak dalam)*/
+	margin: 0; /*Jarak antara tiap element (jarak luar)*/
+}
+
+div.menu ul li{
+	float: right; /*Posisi element dari kanan*/
+}
+
+div.menu ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	padding: 20px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	display: block;
+	position: relative;
+}
+
+div.menu ul li a:hover{
+	border-top: 2px solid red;
+	color: red;
+}
+
+div.menu img{
+	float: left;
+	width: 150px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 40px;
+}
+
+div.header{
+	width: 100%;
+	height: 700px;
+	background: url(moklet.jpg) no-repeat center;
+	background-size: cover;
+	float: left;
+}
+
+div.bayangan{
+	width: 100%;
+	height: 700px;
+	background: black;
+	float: left;
+	opacity: 0.5;
+}
+
+div.header h1{
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	top: 150px;
+	left: 350px; 
+	font-size: 50px;
+	font-weight: 10;
+	font-family: Bahnschrift, sans-serif;
+}
+
+div.header h1 img{
+	width: 120px;
+	height: 120px;
+}
+
+div.header h3{
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	top: 370px;
+	left: 510px; 
+	font-size: 30px;
+	font-weight: 10;
+	font-family: Bahnschrift, sans-serif;
+}
+
+div.about{
+	width: 100%;
+	height: 400px;
+	padding: 0;
+	margin-top: 50px;
+	float: left;
+}
+
+div.about .left{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+div.about .left h1{
+	padding-right: 45px;
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 10;
+	font-family: Bahnschrift, sans-serif;
+	border-right: 5px solid red;
+}
+
+div.about .left p{
+	font-family: Bahnschrift, sans-serif;
+	text-align: right;
+	margin-left: 20px;
+	color: gray;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+div.about .right{
+	width: 45%;
+	height: 100%;
+	float: right;
+}
+
+div.about .right img{
+	width: 500px;
+	height: auto;
+	margin-top: 5px;
+	margin-left: 20px;
+	border: 10px solid #000;
+	border-radius: 15px;
+}
+
+div.layanan{
+	width: 100%; 
+	height: 400px;
+	float: left;
+	margin-top: 20px;
+}
+
+div.layanan .box{
+	width: 20%;
+	height: 100%;
+	float: left;
+	margin: 10px;
+	margin-left: 45px;
+}
+
+div.layanan .box .ikon{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: flex;
+}
+
+div.layanan .box .ikon span{
+	font-size: 50px;
+	color: #fff;
+	margin: auto;
+}
+
+div.layanan .box .desc{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 15px;
+	color: gray;
+	font-family: Bahnschrift, sans-serif;
+}
+
+div.layanan .box .desc h1{
+	font-size: 20px;
+	font-weight: 10;
+	text-transform: uppercase;
+	font-family: Bahnschrift, sans-serif;
+}
+
+.bg-1{
+	background: #d60000;
+}
+.bg-2{
+	background: #f79999;
+}
+.bg-3{
+	background: gray;
+}
+.bg-4{
+	background: black;
+}
+
+.txt-1{
+	color: #d60000;
+}
+.txt-2{
+	color: #f79999;
+}
+.txt-3{
+	color: gray;
+}
+.txt-4{
+	color: black;
+}
+.txt-5{
+	color: red;
+}
+
+div.penghargaan{
+	width: 100%;
+	height: 700px;
+	margin-bottom: 100px;
+	background: url(ft1.jpg) no-repeat top;
+	margin-top: -50px;
+	background-size: cover;
+	float: left;
+	position: relative;
+}
+
+div.penghargaan .gelap{
+	background: linear-gradient(to right, #000, #000, transparent);
+	width: 100%;
+	height: 100%;
+	float: left;
+	opacity: 0.7;
+}
+
+div.penghargaan .left{
+	width: 50%;
+	text-align: right;
+	padding-right: 25px;
+	border-right: 5px solid red;
+	position: absolute;
+	float: left;
+	margin-top: 300px;
+}
+
+div.penghargaan .left h1{
+	margin: 2px;
+	font-size: 50px;
+	font-weight: 400;
+	color: white;
+	font-family: Bahnschrift, sans-serif;
+	text-transform: uppercase;
+}
+
+div.penghargaan .left h2{
+	margin: 2px;
+	color: lightgray;
+	font-size: 30px;
+	font-weight: 400;
+	font-family: Bahnschrift, sans-serif;
+	text-transform: uppercase;
+}
+
+div.penghargaan .left h3{
+	margin: 2px;
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	font-family: Bahnschrift, sans-serif;
+	text-transform: uppercase;
+}
+
+div.penghargaan .right{
+	width: 45%;
+	height: auto;
+	float: right;
+	position: absolute;
+}
+
+div.penghargaan .right img{
+	width: 140px;
+	height: auto;
+	margin-top: 285px;
+	margin-left: 725px;
+}
+
+div.studi{
+	width: 100%;
+	height: 250px;
+	float: left;
+	position: flex;
+}
+
+div.studi .ikon{
+	width: 100px;
+	height: 100px;
+	margin: auto; 
+	border-radius: 50%;
+	display: flex;
+}
+
+div.studi .ikon span{
+	font-size: 50px;
+	color: #fff;
+	margin: auto;
+}
+
+div.studi h1{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 400;
+	font-family: Bahnschrift, sans-serif;
+	color: black;
+	text-transform: uppercase;
+}
+
+div.studi p{
+	color: gray;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 200;
+	font-family: Bahnschrift, sans-serif;
+}
+
+div.prodi{
+	width: 100%;
+	height: 550px;
+	margin-bottom: 100px;
+	float: left;
+	background: linear-gradient(#fff 250px, #d60000 250px);
+}
+
+div.prodi img{
+	margin-left: 110px;
+}
+
+div.prodi .jurusan{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+div.prodi .jurusan h3{
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 400;
+	font-family: Bahnschrift, sans-serif;
+}
+
+div.prodi .jurusan p{
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 200;
+	font-family: Century Gothic, sans-serif;
+}
+
+div.prestasi{
+	width: 100%;
+	height: 600px;
+	margin-bottom: 100px;
+	float: left;
+	background: linear-gradient(#fff 500px, #d60000 100px);
+}
+
+div.prestasi .left{
+	width: 40%;
+	height: auto;
+	float: left;
+}
+
+div.prestasi .left h1{
+	margin-left: 50px;
+	color: black;
+	font-size: 65px;
+	font-weight: 200;
+	text-transform: uppercase;
+	font-family: Bahnschrift, sans-serif;
+	border-left: 5px solid #d60000;
+	padding-left: 50px; 
+}
+
+div.prestasi .left p{
+	margin-top: -10px;
+	margin-left: 50px;
+	color: gray;
+	font-size: 17px;
+	font-weight: 100;
+	font-family: Century Gothic, sans-serif;
+}
+
+div.prestasi .right{
+	width: 60%;
+	height: 100%;
+	float: right;
+}
+
+div.prestasi .right img{
+	margin-top: 40px;
+	width: 650px;
+	height: auto;
+	margin-left: 20px;
+	border: 10px solid grey;
+	border-radius: 15px;
+}
+
+div.prestasi .footer{
+	position: relative;
+	top: 180px;
+	margin-left: 50px;
+}
+
+div.prestasi .footer h3{
+	color: #fff;
+	font-size: 25px;
+	font-weight: 200;
+	font-family: Bahnschrift, sans-serif;
+}
+
+div.info{
+	width: 100%;
+	height: 300px;
+	float: left;
+	position: flex;
+}
+
+div.info .ikon{
+	width: 100px;
+	height: 100px;
+	margin: auto; 
+	border-radius: 50%;
+	display: flex;
+}
+
+div.info .ikon span{
+	font-size: 50px;
+	color: #fff;
+	margin: auto;
+}
+
+div.info h1{
+	text-align: center;
+	font-size: 60px;
+	font-weight: 200;
+	margin: 20px;
+	font-family: Bahnschrift, sans-serif;
+	text-transform: uppercase;
+}
+
+div.info p{
+	color: gray;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 100;
+	font-family: Century Gothic, sans-serif;
+}
+
+div.update{
+	width: 100%;
+	height: 300px;
+	float: left;
+	background: #d60000;
+	position: relative;
+}
+
+div.update .ikon{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	display: flex;
+	left: 40px;
+	top: -50px;
+}
+
+div.update .ikon span{
+	font-size: 50px;
+	color: #fff;
+	margin: auto;
+}
+
+div.update .left{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+div.update .left h1{
+	margin-top: 80px;
+	margin-left: 40px;
+	font-family: Bahnschrift, sans-serif;
+	font-weight: 200;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 40px;
+}
+
+div.update .left p{
+	color: #fff;
+	font-size: 20px;
+	font-family: Bahnschrift, sans-serif;
+	font-weight: 100;
+	margin-left: 40px;
+}
+
+div.update .right{
+	width: 50%;
+	height: auto;
+	float: left;
+	margin-top: 60px;
+}
+
+div.update .right .bunder{
+	width: 100px;
+	height: 100px;
+	background: #fff;
+	border-radius: 50%;
+	margin: 10px;
+	display:flex;
+	float: left;
+}
+
+div.update .right .bunder span{
+	font-size: 50px;
+	color: #d60000;
+	margin: auto;
+}
+
+div.partner{
+	width: 100%;
+	height: auto;
+	float: left;
+	position: flex;
+	margin-top: 100px;
+}
+
+div.partner .group{
+	width: 100px;
+	height: 100px;
+	background: #d60000;
+	margin: auto; 
+	border-radius: 50%;
+	display: flex;
+}
+
+div.partner .group span{
+	font-size: 50px;
+	color: #fff;
+	margin: auto;
+}
+
+div.partner h1{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 200;
+	margin: 20px;
+	font-family: Bahnschrift, sans-serif;
+	text-transform: uppercase;
+}
+
+div.partner p{
+	color: gray;
+	text-align: center;
+	font-size: 15px;
+	font-weight: 100;
+	font-family: Century Gothic, sans-serif;
+}
+
+div.partner .atas{
+	width: 100%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+
+div.partner .atas img{
+	width: 140px;
+	height: auto;
+	margin: 20px;
+	padding: 20px;
+
+}
+
+div.foo{
+	width: 100%;
+	height: auto;
+	float: left;
+	background: #2d2d2d;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+div.foo .col{
+	width: 25%;
+	height: auto;
+	color: #fff;
+	padding: 10px;
+	float: left;
+	box-sizing: border-box;
+}
+
+div.foo .col h3{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+div.foo .col h4{
+	font-weight: 100;
+	font-size: 15px;
+	font-family: Bahnschrift, sans-serif;
+	color: grey;
+}
+
+div.foo .col p{
+	font-family: 'Montserrat', sans-serif;
+	color: grey
+}
+
+div.foo .col .fab{
+	margin: 5px;
+	font-size: 20px;
+}
+
+div.copyright{
+	width: 100%;
+	height: auto;
+	background: #111;
+	float: left;
+}
+
+div.copyright h5{
+	color: grey;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 20;
+	padding-left: 50px;
